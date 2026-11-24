@@ -1,0 +1,47 @@
+Copyright © 2026 SodaTV (https://www.xsodatv.com). All Rights Reserved.
+
+本仓库仅用于发布 SodaTV 的产品介绍、使用指南与官方示例展示，不包含任何开源产品源码。
+
+除法律明确允许的合理使用外，本仓库中的全部内容——包括但不限于：
+
+- 87 个 AI 剧组原创 Q 版角色立绘（assets/team/）
+- 品牌标识与吉祥物（assets/brand/）
+- 首页视觉与流程插画（assets/hero.webp、assets/workflow/）
+- 示例作品封面与展示视频（assets/showcase/ 及文档中内嵌的示例视频）
+- 产品介绍与使用文档（README.md、README_EN.md）
+
+其知识产权及全部相关权利均归 SodaTV 所有，保留一切权利（All Rights Reserved）。
+
+允许行为：
+- 浏览、阅读本仓库内容以了解和使用 SodaTV 产品；
+- 在保留出处与链接的前提下，分享本仓库或官网（https://www.xsodatv.com）链接。
+
+禁止行为（未经 SodaTV 事先书面授权）：
+- 禁止复制、截取、修改、二次创作、公开发布或分发上述 Q 版角色形象、图片及视频素材；
+- 禁止将上述角色形象、美术素材或视频用于任何商业用途、广告宣传、产品界面或自媒体头像/立绘；
+- 禁止将上述角色形象、图片或视频用于 AI / 机器学习模型的训练、微调或数据采集。
+
+---
+
+Copyright © 2026 SodaTV (https://www.xsodatv.com). All Rights Reserved.
+
+This repository hosts SodaTV's product overview, user guide, and official showcase materials. It does not contain open-source product code.
+
+All content in this repository — including, without limitation:
+
+- All 87 original chibi/Q-style AI crew character illustrations (assets/team/)
+- Brand marks and mascots (assets/brand/)
+- Hero artwork and workflow illustrations (assets/hero.webp, assets/workflow/)
+- Showcase thumbnails and demonstration videos (assets/showcase/ and videos embedded in the documentation)
+- Documentation text (README.md, README_EN.md)
+
+is the proprietary intellectual property of SodaTV, with all rights reserved.
+
+Permitted use:
+- Viewing this repository to learn about and use SodaTV;
+- Sharing links to this repository or https://www.xsodatv.com with proper attribution.
+
+Prohibited use (without prior written permission from SodaTV):
+- Copying, extracting, modifying, creating derivative works from, redistributing, or republishing the Q-style character illustrations, artwork, or videos;
+- Using any character illustrations, brand assets, images, or videos for commercial purposes, marketing, product UI, or avatars;
+- Using any character illustrations, images, or videos to train, fine-tune, or build datasets for AI or machine learning models.
