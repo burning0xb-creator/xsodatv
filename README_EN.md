@@ -50,7 +50,7 @@ Nothing to install or deploy — open **[xsodatv.com](https://www.xsodatv.com)**
 - **Change one thing, redo one thing.** The script expands into episodes → segments → shots. Change a line of dialogue and only that segment is recompiled and regenerated, not the whole film.
 - **In a hurry? One-click video.** Hot news, myths and legends, topic animations (Remotion): give it a topic and get a finished video. → [One-Click Video](#one-click-video)
 - **20+ genres out of the box.** Xianxia fantasy, romance, urban drama, sci-fi, preschool animation, post-apocalyptic myth, Grimm's tales, safety education, science explainers, memoir, plus a dozen ad categories (beauty, food, fashion, home, tech, pets, real estate, farm produce, agricultural supplies and machinery) and general promos.
-- **Your models, your choice.** Use the platform's models and pay in Bubbles, or plug in your own Volcano Engine, Soda Channel (OpenRouter), MiniMax, Volcano Web Search or Alibaba Cloud Bailian keys and use your own quota. → [Models and API keys](#models-and-api-keys)
+- **Your models, your choice.** Use the platform's models and pay in Bubbles, or plug in your own Volcano Engine, Soda Channel (OpenRouter), Volcano Web Search or Alibaba Cloud Bailian keys and use your own quota. → [Models and API keys](#models-and-api-keys)
 
 Here is how a film is organized in SodaTV:
 
@@ -517,13 +517,12 @@ There are two ways to use SodaTV, and you can mix them:
 
 Keys are configured per provider. If you only add a Volcano Engine key, generations that go through Volcano Engine use your quota and everything else still runs on platform models billed in Bubbles.
 
-**Account Center (账户中心) → Account (账户) → Model API Key (模型 API Key)** currently supports **5 provider cards**:
+**Account Center (账户中心) → Account (账户) → Model API Key (模型 API Key)** has four provider cards.
 
 | Card in UI | What it covers |
 | --- | --- |
 | **Volcano Engine (火山引擎)** | One Volcano Engine IAM API key with Ark + Doubao Speech permissions covers Ark models, speech recognition (ASR) and text-to-speech (TTS) |
-| **Soda Channel (Soda 通道)** | Accepts an OpenRouter API key; Soda Channel can reuse OpenRouter |
-| **MiniMax** | MiniMax China Open Platform API key for **MiniMax H3 (official direct)** video generation (models routed via Soda Channel use your Soda Channel / OpenRouter key) |
+| **Soda Channel (Soda 通道)** | Use your OpenRouter API key for models on this channel, including MiniMax H3 |
 | **Volcano Web Search (火山联网搜索)** | Dedicated Doubao Search Custom API key for web research in Hot News and Topic Animation |
 | **Alibaba Cloud Bailian (阿里云百炼（一键成片配音）)** | Voiceover for One-Click Video (Myths & Legends narration and Hot News female anchor); a Volcano Engine speech key does not replace it, and without it voiceovers still bill in Bubbles |
 
@@ -543,15 +542,6 @@ Keys are configured per provider. If you only add a Volcano Engine key, generati
 1. Create an API key on OpenRouter and make sure your account has credit.
 2. In **Account Center (账户中心) → Account (账户) → Model API Key (模型 API Key)**, open the **Soda Channel (Soda 通道)** card and paste your OpenRouter API key (Soda Channel can reuse OpenRouter), then click **Save and verify (保存并验证)**.
 3. Verification only queries key status and does not generate content.
-
-</details>
-
-<details>
-<summary><strong>Add a MiniMax key</strong></summary>
-
-1. Sign in to the MiniMax China Open Platform console, create an API key under Account Management / API Keys, and ensure video generation is enabled.
-2. Paste it into the **MiniMax** card and click **Save and verify (保存并验证)** (verification only reads voice lists without generating video; video permissions and credit are checked when generating).
-3. Select **MiniMax H3 (官方直连)** to use this key; options routed through **Soda Channel (Soda 通道)** use your Soda Channel / OpenRouter key.
 
 </details>
 
